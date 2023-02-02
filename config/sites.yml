@@ -1,0 +1,321 @@
+---
+- globalid: EBAY-US
+  id: 0
+  name: US
+  code: US
+  currency: USD
+  language: en
+  domain: ebay.com
+  metric: imperial
+  country: US
+  shipping_zones: [US, Americas, NorthAmerica]
+  free_placement: 50
+  max_insertion_fee: 0.3
+  free_pictures: 12
+  subtitle_fee: 3.0
+  gtc_available: true
+  min_fixed_price: 0.99 # https://pages.ebay.com/help/sell/fixed-price.html
+
+- globalid: EBAY-RU
+  id: 215
+  name: Russia
+  code: RU
+  currency: RUB
+  language: ru
+  domain: ebay.com
+  metric: metric
+  country: RU
+  shipping_zones: [RU, Russia, RussianFederation]
+  gtc_available: true
+  free_placement: 1000000
+  max_insertion_fee: 0
+  free_pictures: 12
+  picture_fee: 0
+  subtitle_fee: 0
+  min_fixed_price: 0.99 # https://pages.ebay.com/help/sell/fixed-price.html
+
+- globalid: EBAY-AT
+  id: 16
+  name: Austria
+  code: AT
+  currency: EUR
+  language: de
+  domain: ebay.at
+  metric: metric
+  country: AT
+  min_fixed_price: # no limit at https://pages.ebay.com.at/help/sell/fixed-price.html
+
+- globalid: EBAY-AU
+  id: 15
+  name: Australia
+  code: AU
+  currency: AUD
+  language: en
+  domain: ebay.com.au
+  metric: metric
+  country: AU
+  shipping_zones: [AU, Oceania]
+  free_placement: 0
+  max_insertion_fee: 3.5
+  free_pictures: 12
+  subtitle_fee: 2
+  gtc_available: true
+  min_fixed_price: 1.00 # found experimentally, help page was moved to unknown place
+
+- globalid: EBAY-CH
+  id: 193
+  name: Switzerland
+  code: CH
+  currency: CHF
+  language: de
+  domain: ebay.ch
+  metric: metric
+  country: CH
+  min_fixed_price: # no limit at https://pages.ebay.ch/help/sell/fixed-price.html
+
+- globalid: EBAY-DE
+  id: 77
+  name: Germany
+  code: DE
+  currency: EUR
+  language: de
+  domain: ebay.de
+  metric: metric
+  country: DE
+  shipping_zones: [DE, Europe, EuropeanUnion]
+  free_placement: 50
+  max_insertion_fee: 0.35
+  free_pictures: 12
+  picture_fee: nil
+  subtitle_fee: 0.5
+  quantity_limits: 9
+  gtc_available: true
+  min_fixed_price: 1.00 # but no limit at https://pages.ebay.de/help/sell/fixed-price.html
+
+- globalid: EBAY-ENCA
+  id: 2
+  name: Canada
+  code: CA
+  currency: CAD
+  language: en
+  domain: ebay.ca
+  metric: metric
+  country: CA
+  shipping_zones: [CA, Americas, NorthAmerica]
+  free_placement: 50
+  max_insertion_fee: 0.3
+  free_pictures: 12
+  subtitle_fee: 1.5
+  quantity_limits: 9
+  gtc_available: true
+  min_fixed_price: 0.99 # https://pages.ebay.ca/help/sell/fixed-price.html
+
+- globalid: EBAY-ES
+  id: 186
+  name: Spain
+  code: ES
+  currency: EUR
+  language: es
+  domain: ebay.es
+  metric: metric
+  country: ES
+  shipping_zones: [ES, Europe, EuropeanUnion]
+  free_placement: 50
+  max_insertion_fee: 0.35
+  free_pictures: 12
+  subtitle_fee: 0.41
+  gtc_available: true
+  min_fixed_price: 0.99 # https://pages.ebay.es/help/sell/fixed-price.html
+
+- globalid: EBAY-FR
+  id: 71
+  name: France
+  code: FR
+  currency: EUR
+  language: fr
+  domain: ebay.fr
+  metric: metric
+  country: FR
+  shipping_zones: [FR, Europe, EuropeanUnion]
+  free_placement: 50
+  max_insertion_fee: 0.35
+  free_pictures: 1
+  picture_fee: 0.13
+  subtitle_fee: 0.42
+  gtc_available: true
+  min_fixed_price: 1.00 # https://pages.ebay.fr/help/sell/fixed-price.html
+
+- globalid: EBAY-FRBE
+  id: 23
+  name: Belgium_French
+  code: BEFR
+  currency: EUR
+  language: fr
+  domain: befr.ebay.be
+  metric: metric
+  country: BE
+  min_fixed_price: 1.00 # https://pages.befr.ebay.be/help/sell/fixed-price.html
+
+- globalid: EBAY-NLBE
+  id: 123
+  name: Belgium_Dutch
+  code: BENL
+  currency: EUR
+  language: nl
+  domain: benl.ebay.be
+  metric: metric
+  country: BE
+  min_fixed_price: # no limit at https://pages.benl.ebay.be/help/sell/fixed-price.html
+
+- globalid: EBAY-FRCA
+  id: 210
+  name: CanadaFrench
+  code: CAFR
+  currency: CAD
+  language: fr
+  domain: cafr.ebay.ca
+  metric: metric
+  country: CA
+  shipping_zones: [CA, Americas, NorthAmerica]
+  free_placement: 50
+  max_insertion_fee: 0.3
+  free_pictures: 12
+  subtitle_fee: 3.0
+  quantity_limits: 9
+  gtc_available: true
+  min_fixed_price: 0.99 # https://pages.ebay.ca/help/sell/fixed-price.html
+
+- globalid: EBAY-GB
+  id: 3
+  name: UK
+  code: UK
+  currency: GBP
+  language: en
+  domain: ebay.co.uk
+  metric: metric
+  country: GB
+  shipping_zones: [GB, Europe]
+  free_placement: 0
+  max_insertion_fee: 0.26
+  free_pictures: 12
+  subtitle_fee: 1
+  gtc_available: true
+  min_fixed_price: 0.99 # for GBP at https://pages.ebay.co.uk/help/sell/fixed-price.html
+
+- globalid: EBAY-HK
+  id: 201
+  name: HongKong
+  code: HK
+  currency: HKD
+  language: zh
+  domain: ebay.com.hk
+  metric: metric
+  country: HK
+  min_fixed_price: 1.00 # https://pages.ebay.com.hk/help/sell/fixed-price.html
+
+- globalid: EBAY-IE
+  id: 205
+  name: Ireland
+  code: IE
+  currency: EUR
+  language: en
+  domain: ebay.ie
+  metric: metric
+  country: IE
+  min_fixed_price: 1.00 # for EUR at https://pages.ebay.ie/help/sell/fixed-price.html
+
+- globalid: EBAY-IN
+  id: 203
+  name: India
+  code: IN
+  currency: INR
+  language: en
+  domain: ebay.in
+  metric: metric
+  country: IN
+  min_fixed_price: 1.00 # https://pages.ebay.in/help/sell/fixed-price.html
+
+- globalid: EBAY-IT
+  id: 101
+  name: Italy
+  code: IT
+  currency: EUR
+  language: it
+  domain: ebay.it
+  metric: metric
+  country: IT
+  shipping_zones: [IT, Europe, EuropeanUnion]
+  free_placement: 50
+  max_insertion_fee: 0.35
+  free_pictures: 1
+  picture_fee: 0.12
+  subtitle_fee: 0.41
+  gtc_available: true
+  min_fixed_price: 1.00 # https://pages.ebay.it/help/sell/fixed-price.html
+
+- globalid: EBAY-MOTOR
+  id: 100
+  name: eBayMotors
+  code: MOTOR
+  currency: USD
+  language: en
+  domain: ebay.com
+  metric: imperial
+  country: US
+  shipping_zones: [US, Americas, NorthAmerica]
+  min_fixed_price: 0.99 # https://pages.ebay.com/motors/help/sell/fixed-price.html
+
+- globalid: EBAY-MY
+  id: 207
+  name: Malaysia
+  code: MY
+  currency: MYR
+  language: en
+  domain: ebay.com.my
+  metric: metric
+  country: MY
+  min_fixed_price: 0.99 # for USD at https://pages.ebay.com.my/help/sell/fixed-price.html
+
+- globalid: EBAY-NL
+  id: 146
+  name: Netherlands
+  code: NL
+  currency: EUR
+  language: nl
+  domain: ebay.nl
+  metric: metric
+  country: NL
+  min_fixed_price: # no limit at https://pages.ebay.nl/help/sell/fixed-price.html
+
+- globalid: EBAY-PH
+  id: 211
+  name: Philippines
+  code: PH
+  currency: PHP
+  language: en
+  domain: ebay.ph
+  metric: metric
+  country: PH
+  min_fixed_price: 0.99 # for USD at https://pages.ebay.ph/help/sell/fixed-price.html
+
+- globalid: EBAY-PL
+  id: 212
+  name: Poland
+  code: PL
+  currency: PLN
+  language: pl
+  domain: ebay.pl
+  metric: metric
+  country: PL
+  min_fixed_price: # no limit at https://pages.ebay.pl/help/sell/fixed-price.html
+
+- globalid: EBAY-SG
+  id: 216
+  name: Singapore
+  code: SG
+  currency: SGD
+  language: en
+  domain: ebay.com.sg
+  metric: metric
+  country: SG
+  min_fixed_price: 1.00 # for USD at https://pages.ebay.com.sg/help/sell/fixed-price.html

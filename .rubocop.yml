@@ -1,0 +1,30 @@
+AllCops:
+  TargetRubyVersion: 2.7
+  NewCops: enable
+  Exclude:
+    - bin/**/*
+
+Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/FormatStringToken:
+  Enabled: false
+
+Style/ModuleFunction:
+  Enabled: false # `module_function` behaviour differs from `extend self`
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*
